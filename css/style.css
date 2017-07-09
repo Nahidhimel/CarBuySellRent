@@ -1,0 +1,130 @@
+/*body*/
+body{
+	/*background-image :url("back1.jpg");*/
+	/*background-repeat: repeat;*/
+	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+}
+
+header,h1{
+	background-color: black;
+		color: red;
+		font-family: sans-serif;
+}
+
+/*container*/
+.container{
+	/*font: arial;*/
+	/*font-family: sans-serif;*/
+	/*background-color:rgba(255,255,255,.7);*/
+	background-color: white;
+	/*min-width: 600px;*/
+	width: 80%;
+	margin: auto;
+	border-radius: 25px;
+	box-shadow:0px 14px 48px black;
+}
+/*navigation bar*/
+nav{
+	padding: 0 auto;
+}
+.banner{ 
+	border:1px solid #c00;
+	border-width:1px 0;
+	list-style:none;
+	margin:0;
+	/*padding:0;*/
+	background-color:#666; 
+	text-align:center;
+}
+.banner nav{
+		height:40px;
+	}
+.banner nav ul {
+	margin: auto;
+}
+.banner nav li{
+	margin:0 auto;
+	display:inline;
+}
+.banner nav ul li a:link , .banner nav a:visited{
+	color:#FFF;
+	display:inline-block;
+	padding: 10px 25px;
+	height:20px;
+}
+
+/*.banner nav a:hover, .banner nav a:active, .banner nav .active,
+.banner nav .active a:visited{
+	background-color: #CF5C3F;
+	margin:auto ;
+	text-shadow:none;
+	/*text-decoration:underline;}*/
+
+
+.banner nav a:hover,.banner nav a:active,
+.banner nav .active a:link /*.banner nav .active a:visited */{
+	background-color: red;
+}
+
+/*anchor*/
+a{
+	text-decoration: none;	
+}
+
+/*slideshow*/
+
+/*box*/
+.box{
+	background-color: brown;
+	overflow: hidden;
+}
+/*downbox*/
+.midbox{
+	background-color: whitesmoke;
+}
+.downbox{
+	width:90%;
+	/*color:white;*/
+	overflow: hidden;
+}
+.buy{
+	/*transform:rotate3d(1,1,1,-7deg);*/
+	overflow: hidden;
+	color:black;
+	position: inherit;
+	width: 30%;
+	float: left;
+	background-color: rgb(231, 231, 231);
+	border-radius: 0px 0px 5px -1px;
+	list-style: none;
+	box-shadow:0px 0px 5px black;
+}
+.sell{
+	/*transform:rotate3d(1,1,1,-7deg);*/
+	overflow: hidden;
+	color:black;
+	position: inherit;
+	width: 30%;
+	float: left;
+	background-color: rgb(231, 231, 231);
+	border-radius: 0px 0px 5px -1px;
+	list-style: none;
+	box-shadow:0px 0px 5px black;
+}
+.rent{
+	/*transform:rotate3d(1,1,1,-7deg);*/
+	overflow: hidden;
+	color:black;
+	position: inherit;
+	width: 30%;
+	float: left;
+	background-color: rgb(231, 231, 231);
+	border-radius: 0px 0px 5px -1px;
+	list-style: none;
+	box-shadow:0px 0px 5px black;
+}
+
+.buyCar{
+	display:block;
+		
+}
